@@ -1,0 +1,16 @@
+package merge;
+
+import java.util.Arrays;
+
+
+public class Merge {
+
+    public static void main(String[] args) {
+        int [] array = {9,5,8,0,2,4};
+        sorted s1 = new sorted();
+        s1.sort(array);
+        System.out.println(Arrays.toString(array));
+        
+    }
+    
+}
